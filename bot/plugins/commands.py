@@ -38,7 +38,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'Developers', url="https://t.me/taless01"
+                                    '🔱Join🔱', url="https://t.me/taless01"
                                 )
                         ]
                     ]
@@ -57,7 +57,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'Developers', url="https://t.me/taless01"
+                                    '🔱Join🔱', url="https://t.me/taless01"
                                 )
                         ]
                     ]
@@ -76,7 +76,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'Developers', url="https://t.me/taless01"
+                                    '🔱Join🔱', url="https://t.me/taless01"
                                 )
                         ]
                     ]
