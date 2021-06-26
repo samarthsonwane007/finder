@@ -5,11 +5,10 @@
 class Translation(object):
     
     START_TEXT = """<b>Hey {}!!</b>
-<i>Am Just A Advance Auto Finder Bot....😉
+<i>𝗔𝗺 𝗝𝘂𝘀𝘁 𝗔 𝗔𝗱𝘃𝗮𝗻𝗰𝗲 𝗔𝘂𝘁𝗼 𝗙𝗶𝗻𝗱𝗲𝗿 𝗕𝗼𝘁....😉
 
-Just Add Me To Your Group And Channel And Connect Them And See My Pevers 🔥🔥😝
+ 𝗮𝗻𝗱 I 𝗺 𝗰𝘂𝗿𝗿𝗲𝗻𝘁𝗹𝘆 𝗶𝗻 𝗯𝗲𝘁𝗮 𝗺𝗼𝗱𝗲🔥🔥😝
 
-For More Details Click Help Button Below..
 @umeshask
 </i>"""    
     
@@ -17,8 +16,8 @@ For More Details Click Help Button Below..
 <b><i><u>How To Use Me!?</u></i></b>
 
 <i>
--> Add Me To Any Group And Make Me Admin
--> Add Me To Your Desired Channel
+-> Well, you can't use me. You don't have permission to use me.
+-> Because i only work for My Master {@umeshask}
 </i>
 
 <b>Bot Commands (Works Only In Groups) :</b>
@@ -43,7 +42,7 @@ For More Details Click Help Button Below..
             
             -> <code>Status</code> - Button Will Shows The Stats Of Your Channel
             
-@CrazyBotsz
+  Made by @umeshask 😎
 """
     
     ABOUT_TEXT = """<b>➥ Name</b> : <code> Auto Finder Bot</code>
@@ -54,5 +53,4 @@ For More Details Click Help Button Below..
 
 <b>➥ Library</b> : <i><a href="https://docs.pyrogram.org">Pyrogram Asyncio 1.13.0 </a></i>
 
-<b>➥ Source Code</b> : <i><a href="https://github.com/AlbertEinsteinTG/Adv-Auto-Filter-Bot">Click Me</a></i>
 """
