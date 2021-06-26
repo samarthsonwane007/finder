@@ -94,7 +94,7 @@ async def start(bot, update):
     ],[
         InlineKeyboardButton('Support 🛠', url='https://t.me/taless01')
     ],[
-        InlineKeyboardButton('Help ⚙', callback_data="help")
+        InlineKeyboardButton('', callback_data="")
     ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)
