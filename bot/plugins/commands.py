@@ -50,7 +50,7 @@ async def start(bot, update):
             await bot.send_video(
                 chat_id=update.chat.id,
                 video = file_id,
-                caption = file_caption,
+                caption = f"<b>{file_caption}</b>",
                 parse_mode="html",
                 reply_markup=InlineKeyboardMarkup(
                     [
@@ -69,7 +69,7 @@ async def start(bot, update):
             await bot.send_audio(
                 chat_id=update.chat.id,
                 audio = file_id,
-                caption = caption,
+                caption = f"<b>{file_caption}</b>",
                 parse_mode="html",
                 reply_markup=InlineKeyboardMarkup(
                     [
