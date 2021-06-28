@@ -30,7 +30,7 @@ async def start(bot, update):
             await bot.send_document(
                 chat_id=update.chat.id,
                 document = file_id,
-                caption = file_caption,
+                caption = f"<b>{file_caption}</b>",
                 parse_mode="html",
                 reply_to_message_id=update.message_id,
                 reply_markup=InlineKeyboardMarkup(
@@ -38,7 +38,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '🔱Join🔱', url="https://t.me/taless01"
+                                    '🔱Join🔱', url="https://t.me/joinchat/WWbTlXkY4pHDvJFI"
                                 )
                         ]
                     ]
@@ -50,14 +50,14 @@ async def start(bot, update):
             await bot.send_video(
                 chat_id=update.chat.id,
                 video = file_id,
-                caption = caption,
+                caption = file_caption,
                 parse_mode="html",
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
                             InlineKeyboardButton
                                 (
-                                    '🔱Join🔱', url="https://t.me/taless01"
+                                    '🔱Join🔱', url="https://t.me/joinchat/WWbTlXkY4pHDvJFI"
                                 )
                         ]
                     ]
@@ -76,7 +76,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '🔱Join🔱', url="https://t.me/taless01"
+                                    '🔱Join🔱', url="https://t.me/joinchat/WWbTlXkY4pHDvJFI"
                                 )
                         ]
                     ]
@@ -89,10 +89,10 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('Developers', url='https://t.me/taless01'),
+        InlineKeyboardButton('Developers', url='https://t.me/umeshask'),
         InlineKeyboardButton('', url ='')
     ],[
-        InlineKeyboardButton('Support 🛠', url='https://t.me/taless01')
+        InlineKeyboardButton('Join🔔', url='https://t.me/taless01')
     ],[
         InlineKeyboardButton('', callback_data="")
     ]]
